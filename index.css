@@ -9,7 +9,7 @@
 }
 body {
     font-family: Arial, sans-serif;
-    background-color: #aba5a5;
+    background-color: rgb(171, 165, 165);
     color: #333;
     padding-bottom: 80px;
 }
@@ -130,4 +130,20 @@ p.footer {
     justify-content: center;
     height: 400px;
     margin-top: 10px;
+}
+.galeria3{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    margin: 5px;
+    height: 200px;
+
+}
+
+/*Lista*/
+ul li {
+    margin-left: 40px;
+    margin-top: 10px;
+    color: #555;
 }
